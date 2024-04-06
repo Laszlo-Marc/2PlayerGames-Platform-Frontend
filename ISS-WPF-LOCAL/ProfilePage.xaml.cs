@@ -35,24 +35,24 @@ namespace ISS_WPF_LOCAL
             this.NavigationService.Navigate(new HistoryPage());
         }
 
-        private void chessStatsButton_Click(object sender, RoutedEventArgs e)
+        private void ChessStatsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new StatsPage());
         }
 
-        private void connect4StatsButton_Click(object sender, RoutedEventArgs e)
+        private void Connect4StatsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new StatsPage());
         }
 
-        private void obstructionStatsButton_Click(object sender, RoutedEventArgs e)
+        private void ObstructionStatsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new StatsPage());
         }
 
-        private void dartsStatsButton_Click(object sender, RoutedEventArgs e)
+        private void DartsStatsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.NavigationService.Navigate(new StatsPage());
         }
     }
 }

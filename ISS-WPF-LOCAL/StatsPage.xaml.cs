@@ -24,5 +24,15 @@ namespace ISS_WPF_LOCAL
         {
             InitializeComponent();
         }
+
+        private void ProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new ProfilePage());
+        }
+
+        private void MenuButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new MenuPage());
+        }
     }
 }
