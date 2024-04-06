@@ -1,0 +1,284 @@
+﻿<Page x:Class="ISS_WPF_LOCAL.LoadingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ISS_WPF_LOCAL"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="920"
+      Title="LoadingPage">
+
+    <Border CornerRadius="20">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                <GradientStop Color="DarkBlue" Offset="0.0"></GradientStop>
+                <GradientStop Color="DeepSkyBlue" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </Border.Background>
+        <StackPanel>
+            <Grid Width="920" Height="100">
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="DarkBlue" Offset="0.0"></GradientStop>
+                        <GradientStop Color="Blue" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <TextBlock Text="Looking for player"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="38"
+                           Foreground="White"></TextBlock>
+
+            </Grid>
+            <Grid Width="920" Height="500">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="300"/>
+                </Grid.RowDefinitions>
+
+
+                <Border Grid.Row="0" 
+                        CornerRadius="10"
+                        BorderBrush="Aqua" 
+                        BorderThickness="2" 
+                        Margin="55,10,661,34"
+                >
+                    <Image Source="Images/Human.png" Margin="22,25,21,18"/>
+                </Border>
+                <Ellipse Stroke="Cyan" StrokeThickness="3"  HorizontalAlignment="Left" Height="100" Margin="656,38,0,0" VerticalAlignment="Top" Width="100"/>
+                <Ellipse Stroke="Cyan" StrokeThickness="3" HorizontalAlignment="Left" Height="120" Margin="647,28,0,0"  VerticalAlignment="Top" Width="118"/>
+                <Ellipse Stroke="Cyan" StrokeThickness="3" HorizontalAlignment="Left" Height="25" Margin="747,146,0,0"  VerticalAlignment="Top" Width="136" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="30.059"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse HorizontalAlignment="Left" Height="35" Margin="687,53,0,0" Stroke="Cyan" StrokeThickness="3" VerticalAlignment="Top" Width="38"/>
+                <Rectangle HorizontalAlignment="Left" Height="26" Margin="683,93,0,0" Stroke="Cyan" StrokeThickness="3" VerticalAlignment="Top" Width="46">
+                    <Rectangle.RadiusX>10</Rectangle.RadiusX>
+                    <Rectangle.RadiusY>10</Rectangle.RadiusY>
+                </Rectangle>
+                <Grid Margin="10,0,45,0" Grid.Row="1" >
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="421,40,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-90.04"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="491,126,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="9.34"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="489,88,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-16.408"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="460,51,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="125.734"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="441,43,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="108.764"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="369,61,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="45.997"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="403,41,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="78.714"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="483,0,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Center" Width="70" RenderTransformOrigin="0.612,0.49">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="30.619"/>
+                                <TranslateTransform X="-1.318" Y="4.451"/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="383,48,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="61.268"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="349,99,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="187.982"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="478,66,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-37.41"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="348,118,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-5.366"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="364,155,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-34.727"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="427,182,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.541,0.422">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="83.464"/>
+                                <TranslateTransform X="-0.061" Y="1.759"/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="472,105,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.506,0.569">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-3.309"/>
+                                <TranslateTransform X="20.366" Y="2.868"/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="356,79,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.522,0.552">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="22.127"/>
+                                <TranslateTransform X="-0.564" Y="0.78"/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="451,174,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="61.519"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="469,162,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="44.598"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="353,135,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="167.977"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="381,169,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="128.317"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Ellipse HorizontalAlignment="Left" Height="10" Margin="402,178,0,0" Stroke="Cyan" Fill="White" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5">
+                        <Ellipse.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="110.364"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Ellipse.RenderTransform>
+                    </Ellipse>
+                    <Label FontSize="20" Foreground="White" FontFamily="Times New Roman" FontWeight="Bold" Content="Loading..." HorizontalAlignment="Left" Margin="412,227,0,0" VerticalAlignment="Top" Width="145" RenderTransformOrigin="0.5,0.5">
+
+                    </Label>
+
+                </Grid>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Page>
