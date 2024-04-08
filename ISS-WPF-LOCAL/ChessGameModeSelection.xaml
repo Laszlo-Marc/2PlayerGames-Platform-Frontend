@@ -8,7 +8,13 @@
       d:DesignHeight="600" d:DesignWidth="920"
       Title="ChessGameModeSelection">
 
-    <Border Background="#091d78" CornerRadius="10">
+    <Border  CornerRadius="10">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                <GradientStop Color="DarkBlue" Offset="0.0"></GradientStop>
+                <GradientStop Color="DeepSkyBlue" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </Border.Background>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>

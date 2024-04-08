@@ -24,5 +24,11 @@ namespace ISS_WPF_LOCAL
         {
             InitializeComponent();
         }
+
+        private void slider1_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            string msg = String.Format("Power: {0}", e.NewValue);
+            this.textBlock1.Text = msg;
+        }
     }
 }

@@ -20,19 +20,22 @@ namespace ISS_WPF_LOCAL
     /// </summary>
     public partial class OpponentPage : Page
     {
-        public OpponentPage()
+        private string _gamePage;
+        public OpponentPage(string gamePage)
         {
             InitializeComponent();
+            _gamePage = gamePage;
         }
 
         private void humanButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new LoadingPage());
+
+            this.NavigationService.Navigate(new LoadingPage(_gamePage));
         }
 
         private void robotButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            NavigationService?.Navigate(new Uri($"{_gamePage}.xaml", UriKind.Relative));
         }
     }
 }

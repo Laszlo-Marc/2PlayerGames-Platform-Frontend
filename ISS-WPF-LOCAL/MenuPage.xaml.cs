@@ -20,6 +20,7 @@ namespace ISS_WPF_LOCAL
     /// </summary>
     public partial class MenuPage : Page
     {
+        private string _gamePage;
         public MenuPage()
         {
             InitializeComponent();
@@ -28,26 +29,31 @@ namespace ISS_WPF_LOCAL
         public void ProfileButton_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.Navigate(new ProfilePage());
+            
         }
 
         private void chessButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new ChessGameGUI());
+            this._gamePage= "ChessGameGUI";
+            this.NavigationService.Navigate(new OpponentPage(_gamePage));
         }
 
         private void connect4Button_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new OpponentPage());
+            this._gamePage="Connect4GameGUI";
+            this.NavigationService.Navigate(new OpponentPage(_gamePage));
         }
 
         private void dartsButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new OpponentPage());
+            this._gamePage="DartsGameGUI";
+            this.NavigationService.Navigate(new OpponentPage(_gamePage));
         }
 
         private void obstructionButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new OpponentPage());
+            this._gamePage="ObstructionGameGUI";
+            this.NavigationService.Navigate(new OpponentPage(_gamePage));
         }
     }
 }
