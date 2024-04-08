@@ -82,17 +82,17 @@
                            Margin="130,105,391,357"
                            FontFamily="Times New Roman"
                            FontSize="24"></TextBlock>
-                <TextBlock Grid.Column="1"
+                <TextBlock x:Name="badgeTextInfo" Grid.Column="1"
                            Text="Diamond" Foreground="Aqua"
                            Margin="310,60,211,402"
                            FontFamily="Times New Roman"
                            FontSize="24"></TextBlock>
-                <TextBlock Grid.Column="1"
+                <TextBlock x:Name="favouriteGameInfo" Grid.Column="1"
                            Text="Darts" Foreground="Aqua"
                            Margin="310,148,147,314"
                            FontFamily="Times New Roman"
                            FontSize="24"></TextBlock>
-                <TextBlock Grid.Column="1"
+                <TextBlock x:Name="trophiesTextInfo" Grid.Column="1"
                            Text="1700" Foreground="Aqua"
                            Margin="310,105,211,357"
                            FontFamily="Times New Roman"

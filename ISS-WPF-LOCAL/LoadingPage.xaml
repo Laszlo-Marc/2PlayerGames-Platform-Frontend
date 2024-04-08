@@ -350,7 +350,7 @@
                                 <DoubleAnimation
                                     Storyboard.TargetName="Ellipse18"
                                     Storyboard.TargetProperty="Opacity"
-                                    From="1" To="0" Duration="0:0:0.5" BeginTime="0:0:8.5"  AutoReverse="True"/>
+                                    From="1" To="0" Duration="0:0:0.25" BeginTime="0:0:8.5"  AutoReverse="True"/>
                                 <DoubleAnimation
                                     Storyboard.TargetName="Ellipse19"
                                     Storyboard.TargetProperty="Opacity"

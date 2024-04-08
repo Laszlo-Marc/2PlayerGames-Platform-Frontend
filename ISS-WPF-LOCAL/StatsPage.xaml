@@ -139,7 +139,7 @@
 
                 </StackPanel>
                 <StackPanel Grid.Column="1" Margin="0 0 100  0">
-                    <TextBlock Foreground="White"
+                    <TextBlock x:Name="eloTextInfo" Foreground="White"
                            Width="200" Height="50"
                            Text="2400"
                            FontSize="24"
@@ -152,7 +152,7 @@
                 >
 
                     </Border>
-                    <TextBlock Foreground="White"
+                    <TextBlock x:Name="gamesTextInfo" Foreground="White"
                            Width="200" Height="50"
                            Text="100"
                            FontSize="24"
@@ -165,7 +165,7 @@
                 >
 
                     </Border>
-                    <TextBlock Foreground="White"
+                    <TextBlock x:Name="hoursTextInfo" Foreground="White"
                            Width="200" Height="50"
                            Text="100h30m"
                            FontSize="24"
@@ -178,7 +178,7 @@
                 >
 
                     </Border>
-                    <TextBlock Foreground="White"
+                    <TextBlock x:Name="rankingTextInfo" Foreground="White"
                            Width="200" Height="50"
                            Text="1700"
                            FontSize="24"
@@ -191,7 +191,7 @@
                 >
 
                     </Border>
-                    <TextBlock Foreground="White"
+                    <TextBlock x:Name="drawTextInfo" Foreground="White"
                            Width="200" Height="50"
                            Text="1/10"
                            FontSize="24"
@@ -204,7 +204,7 @@
                 >
 
                     </Border>
-                    <TextBlock Foreground="White"
+                    <TextBlock x:Name="winLossInfo" Foreground="White"
                            Width="200" Height="50"
                            Text="3/4"
                            FontSize="24"
