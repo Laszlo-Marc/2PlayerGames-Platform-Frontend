@@ -32,7 +32,7 @@ namespace ISS_WPF_LOCAL
 
         private void chessButton_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new OpponentPage());
+            this.NavigationService.Navigate(new ChessGameGUI());
         }
 
         private void connect4Button_Click(object sender, RoutedEventArgs e)

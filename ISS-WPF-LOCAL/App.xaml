@@ -7,6 +7,8 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Themes/MenuButtonTheme.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Themes/ChessStarDifficultyButtonTheme.xaml"/>
+                <ResourceDictionary Source="/Themes/ObstructionDifficultyButtonTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

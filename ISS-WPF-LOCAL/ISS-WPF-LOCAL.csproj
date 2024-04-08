@@ -55,12 +55,46 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ChessGameGUI.xaml.cs">
+      <DependentUpon>ChessGameGUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChessGameModeSelection.xaml.cs">
+      <DependentUpon>ChessGameModeSelection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Connect4GameGUI.xaml.cs">
+      <DependentUpon>Connect4GameGUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DartsGameGUI.xaml.cs">
+      <DependentUpon>DartsGameGUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HistoryPage.xaml.cs">
       <DependentUpon>HistoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ObstructionGameGUI.xaml.cs">
+      <DependentUpon>ObstructionGameGUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ObstructionGameMode.xaml.cs">
+      <DependentUpon>ObstructionGameMode.xaml</DependentUpon>
     </Compile>
     <Compile Include="StatsPage.xaml.cs">
       <DependentUpon>StatsPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="ChessGameGUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChessGameModeSelection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Connect4GameGUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DartsGameGUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HistoryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +124,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ObstructionGameGUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ObstructionGameMode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="OpponentPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,6 +141,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StatsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\ChessStarDifficultyButtonTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\ObstructionDifficultyButtonTheme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -158,7 +208,32 @@
     <Resource Include="Images\Robot.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\setting_icon.png" />
+    <Resource Include="Images\black-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\connect4-board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Dartboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\dart-board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\diamond-rank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\yellow-circle.png" />
+    <Resource Include="Images\x-symbol.png" />
+    <Resource Include="Images\white-circle.png" />
+    <Resource Include="Images\trophy.png" />
+    <Resource Include="Images\star.png" />
+    <Resource Include="Images\settings-icon.png" />
+    <Resource Include="Images\red-circle.png" />
+    <Resource Include="Images\p2-avatar.png" />
+    <Resource Include="Images\p1-avatar.png" />
+    <Resource Include="Images\o-symbol.png" />
+    <Content Include="Images\OIP.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
